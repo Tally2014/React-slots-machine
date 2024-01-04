@@ -1,9 +1,11 @@
 import React from 'react'
 
-function Slots(props) {
+function Slots({val1, val2, val3}) {
   return (
     <div>
-        <h1>{props.val1} {props.val2} {props.val3}</h1>
+        <h1>{val1} {val2} {val3}</h1>
+        <h2>You win!</h2>
+        <h3>Congrats!!!</h3>
     </div>
   )
 }
